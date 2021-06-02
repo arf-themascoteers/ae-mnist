@@ -21,7 +21,7 @@ class Autoencoder_Linear(nn.Module):
             nn.ReLU(),
             nn.Linear(64, 128),
             nn.ReLU(),
-            nn.Linear(12, 28 * 28),
+            nn.Linear(128, 28 * 28),
             nn.Sigmoid()
         )
 
